@@ -51,7 +51,7 @@ Example KMS secrets engine workflows for AWS, Azure, and Google Cloud. Configure
 Example Transit secret engine workflows. Including generating key material outside of Vault and then importing it into Vault.
 
 #### [Vault auto-init sidecar](https://github.com/jamiewri/vault-auto-init)
-A sidecar for working with Vault in a environment. Useful for deploying demos quickly.
+A sidecar for working with Vault in a dev Kubernetes environment. Useful for deploying demos quickly.
 
 ### Testing
 #### [Non-functional testing of the Transit secrets engine](https://github.com/jamiewri/vault-loadtester)
