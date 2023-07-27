@@ -10,8 +10,9 @@ A collection of links to my HashiCorp demos, resources, and other scripts I use.
 3. [Terraform Cloud](#terraform-cloud)
 4. [Vault](#vault)
 5. [Consul](#consul)
-6. [Golang](#golang)
-7. [Scripts](#scripts)
+6. [Boundary](#boundary)
+7. [Golang](#golang)
+8. [Scripts](#scripts)
 
 ## Packer <a name="packer"></a>
 #### [Library of Packer examples](https://github.com/jamiewri/packer-by-example)
@@ -70,6 +71,11 @@ Use Packer and Ansible to build immutable Consul, Web, and Bastion server images
 
 #### [Dynamically configure Nginx for Blue/Green Deployments](https://github.com/jamiewri/consul-snapshot-blue-green-deployments)
 Use Docker and Python to build 2 containerised web applications. Then deploy Consul and programmatically render an Nginx configuration based on Consul service discovery.
+
+## Boundary <a name="boundary"></a>
+
+#### [Securing Access to Kubernetes with Boundary](https://github.com/jamiewri/snapshot-securing-access-to-kubernetes-with-boundary)
+Deploy Vault and Boundary to delivery ephemeral access to Kubernetes clusters.
 
 ## Golang <a name="golang">
 #### [Searching Terraform Cloud from the CLI](https://github.com/jamiewri/terraform-cloud-tag-orchestration)
